@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{197b109b-5a2d-4b8c-b0b0-943ed8634774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TopicModel">
+      <UniqueIdentifier>{047a4056-ca6a-4f3d-bd5a-c2f7a1ecdb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils">
+      <UniqueIdentifier>{d1a98e38-8f78-4d3d-acec-22fc4b3c18f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\OpenCL">
+      <UniqueIdentifier>{b04cf80d-0509-486d-9534-14febaea78f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Utils\avx_gamma.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\avx_mathfun.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\Dictionary.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\EigenAddonOps.hpp">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\exception.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\LBFGS.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\LUT.hpp">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\math.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\sample.hpp">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\serializer.hpp">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\slp.hpp">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\sse_gamma.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\sse_mathfun.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\text.hpp">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\ThreadPool.hpp">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\tvector.hpp">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\Utils.hpp">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TopicModel\DMR.h">
+      <Filter>src\TopicModel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TopicModel\DMRModel.hpp">
+      <Filter>src\TopicModel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TopicModel\GDMR.h">
+      <Filter>src\TopicModel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TopicModel\GDMRModel.hpp">
+      <Filter>src\TopicModel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TopicModel\LDA.h">
+      <Filter>src\TopicModel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TopicModel\LDAModel.hpp">
+      <Filter>src\TopicModel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TopicModel\TopicModel.hpp">
+      <Filter>src\TopicModel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OpenCL\opencl_dyn_load.h">
+      <Filter>src\OpenCL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OpenCL\OpenCLMgr.h">
+      <Filter>src\OpenCL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cxxopts.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ModelRunner.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\TopicModel\DMRModel.cpp">
+      <Filter>src\TopicModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TopicModel\GDMRModel.cpp">
+      <Filter>src\TopicModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TopicModel\LDAModel.cpp">
+      <Filter>src\TopicModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenCL\opencl_dyn_load.cpp">
+      <Filter>src\OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenCL\OpenCLMgr.cpp">
+      <Filter>src\OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseSIMD|x64'">
+    <LocalDebuggerCommandArguments>gdmr data/dataset1.txt -K 40 -F 2 -D 4,3 -I 800 --oi 20 --bi 200 -a 1e-2 -s 0.25 --s0 3 -V 1 --alphaEps 1e-10 --mdm 1997,0 --mdM 2017,1 --cl 1</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
