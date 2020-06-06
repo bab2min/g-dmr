@@ -1,11 +1,13 @@
 # Incorporating Citation Impact into Analysis of Research Trends
 
-This introduces new generalized DMR topic model, Citation Impact DMR(CI-DMR) topic model. 
+https://link.springer.com/article/10.1007/s11192-020-03508-3
+
+This introduces new generalized DMR topic model. 
 It can capture more than one metadata into topic using Legendre polynomial as the basis of topic hyperparameter.
 
 This repository provides two options to reproduce the experiments. It is recommended to use first option.
 
-## Experiment with tomotopy (Option 1)
+## Experiment with tomotopy (Option 1, Recommended)
 **Updated at 2020-06-06**
 
 Now the python package `tomotopy` supports g-DMR models, so you can reproduce experiments with the code `run_using_tomotopy.py`. To run the code, please follow these steps.
