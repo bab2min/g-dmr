@@ -10,7 +10,7 @@ This repository provides two options to reproduce the experiments. It is recomme
 ## Experiment with tomotopy (Option 1, Recommended)
 **Updated at 2020-06-06**
 
-Now the python package `tomotopy` supports g-DMR models, so you can reproduce experiments with the code `run_using_tomotopy.py`. To run the code, please follow these steps.
+Now the python package `tomotopy` (https://github.com/bab2min/tomotopy) supports g-DMR models, so you can reproduce experiments with the code `run_using_tomotopy.py`. To run the code, please follow these steps.
 
 1. Install requirements
 ```
