@@ -32,6 +32,17 @@ python3 run_using_tomotopy.py --input data/dataset1.txt -K 40 -F 4 3 --md_range 
 python3 run_using_tomotopy.py --input data/dataset2.txt -K 30 -F 4 3 --md_range "[(2000, 2017), (0, 1)]" --save models/d2.gdmr --visualize
 ```
 
+### Examples of Visualization
+Following plots are from the result of Dataset2 (articles about text mining).
+The x-axis represents publication year and the y-axis represents relative citation count.
+The reddish part indicates where the topic is heavily concentrated.
+
+![sample](22.png "Plot of Topic #22")
+
+![sample](27.png "Plot of Topic #27")
+
+![sample](29.png "Plot of Topic #29")
+
 ## Experiment with c++ code (Option 2)
 Requirement:
 
