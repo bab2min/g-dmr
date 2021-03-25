@@ -14,7 +14,7 @@ Now the python package `tomotopy` (https://github.com/bab2min/tomotopy) supports
 
 1. Install requirements
 ```
-pip3 install tomotopy>=0.8.0
+pip3 install tomotopy>=0.11.0
 pip3 install matplotlib
 ```
 
