@@ -13,7 +13,7 @@ def run_gdmr(input_file, topics,
     corpus = tp.utils.Corpus()
     for line in open(input_file, encoding='utf-8'):
         fd = line.strip().split()
-        corpus.add_doc(fd[2:], metadata=list(map(float, fd[:2])))
+        corpus.add_doc(fd[2:], numeric_metadata=list(map(float, fd[:2])))
 
     mdl = tp.GDMRModel(k=topics, degrees=degrees, alpha=alpha, sigma=sigma, sigma0=sigma0, 
         metadata_range=md_range, corpus=corpus
